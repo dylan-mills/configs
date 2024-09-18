@@ -1,0 +1,17 @@
+[core]
+        editor = vi
+        pager = delta
+[alias]
+        st = status
+        cm = commit -m
+        br = branch
+        last = log -1 HEAD
+        co = checkout
+        ci = commit
+        lg = log --pretty='%C(red)%h%Creset%C(yellow)%d%Creset %s %C(cyan)(%ar)%Creset'
+        pom = pull origin main
+[filter "lfs"]
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
