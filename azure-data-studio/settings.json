@@ -1,0 +1,22 @@
+{
+  "workbench.editorAssociations": {
+        "*.{sqlplan}": "workbench.editor.executionplan",
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.enablePreviewFeatures": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "dashboard.server.properties": true,
+    "dashboard.database.properties": true,
+    "mssql.objectExplorer.groupBySchema": true,
+    "editor.fontWeight": "normal",
+    "datasource.connectionsSortOrder": "displayName",
+    "mssql.tableDesigner.preloadDatabaseModel": true,
+    "workbench.colorTheme": "Default Dark Azure Data Studio"
+}
